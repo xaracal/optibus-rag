@@ -16,7 +16,7 @@ cp .env.example .env
 docker compose up --build
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The API is at [http://localhost:8000](http://localhost:8000).
+Open [http://localhost:3000](http://localhost:3000). The API is at [http://localhost:8000](http://localhost:8000). This is the supported way to run the dashboard locally.
 
 Compose starts four services in order:
 
@@ -59,23 +59,11 @@ docker compose run --rm -v "$PWD/my-docs:/import:ro" ingest \
   python -m app.ingest --source /import --prune
 ```
 
-## Run locally without Docker for the app
+## Frontend development
 
-Requires Python 3.10+ (3.12 recommended), Node 20+, and a Redis 8 server.
+The React app can run on the host for UI work only. Redis, ingest, and the API stay in Docker Compose.
 
-```bash
-docker compose up -d redis
-cp .env.example .env   # then add OPENAI_API_KEY
-
-cd backend
-python3.12 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements-dev.txt
-python -m app.ingest --source dataset/documents.json --prune
-uvicorn app.main:app --reload --port 8000
-```
-
-In another terminal:
+Start the stack first (`docker compose up --build`), then:
 
 ```bash
 cd frontend
@@ -83,7 +71,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173). The dev server proxies `/api` to the backend.
+Open [http://localhost:5173](http://localhost:5173). Vite proxies `/api` to the Compose backend on port 8000.
 
 ## API
 
