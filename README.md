@@ -147,7 +147,7 @@ python -m evals.retrieval          # uses TOP_K
 python -m evals.retrieval --k 6
 ```
 
-It needs `OPENAI_API_KEY` and an ingested index. Redis is reached at `REDIS_URL`, which is `localhost:6379` when Redis runs from Compose. Run it before and after changing embedding models, chunking, or retrieval settings, and add a case when you find a question that retrieves the wrong notes.
+It needs `OPENAI_API_KEY` and an ingested index. Redis from Compose is already on `localhost:6379`. Run it before and after changing embedding models, chunking, or retrieval settings, and add a case when you find a question that retrieves the wrong notes.
 
 ```bash
 cd frontend
