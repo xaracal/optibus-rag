@@ -1,0 +1,77 @@
+[
+  {
+    "id": "planning_1",
+    "module": "Planning",
+    "text": "Route 1 connects the central depot with the northern industrial zone, operating every 20 minutes during peak hours. Demand analysis suggests a 15% increase in morning ridership next month."
+  },
+  {
+    "id": "planning_2",
+    "module": "Planning",
+    "text": "A new express line between the airport and downtown is proposed. Travel time is estimated at 35 minutes with two intermediate stops."
+  },
+  {
+    "id": "planning_3",
+    "module": "Planning",
+    "text": "Weekend services on suburban routes should be reduced to 60-minute headways to align with lower passenger demand."
+  },
+  {
+    "id": "planning_4",
+    "module": "Planning",
+    "text": "Route 9 should extend its evening service by one additional trip to cover post-concert passenger demand near the stadium."
+  },
+  {
+    "id": "planning_5",
+    "module": "Planning",
+    "text": "Fleet allocation for the new BRT corridor must prioritize articulated buses. Expected load factor during rush hours exceeds 85%."
+  },
+  {
+    "id": "scheduling_1",
+    "module": "Scheduling",
+    "text": "Driver shift A starts at 05:45 and ends at 14:00, covering two consecutive morning trips on Route 5. Each driver must have a 30-minute rest break after the first trip."
+  },
+  {
+    "id": "scheduling_2",
+    "module": "Scheduling",
+    "text": "Bus 307 is assigned to Route 12 for the afternoon block. The vehicle completes three trips before returning to depot for fueling and cleaning."
+  },
+  {
+    "id": "scheduling_3",
+    "module": "Scheduling",
+    "text": "Overlapping driver duties on Route 8 should be avoided. Each block must begin and end at the same depot for efficient shift rotation."
+  },
+  {
+    "id": "scheduling_4",
+    "module": "Scheduling",
+    "text": "Shifts covering night routes must comply with labor agreements limiting continuous driving to six hours with a mandatory break."
+  },
+  {
+    "id": "scheduling_5",
+    "module": "Scheduling",
+    "text": "Driver roster for the next bid period should prioritize balanced weekly hours and minimize split shifts where possible."
+  },
+  {
+    "id": "ops_1",
+    "module": "OPS",
+    "text": "Bus 412 reported a late departure of 12 minutes due to heavy traffic near the central station. Delay was recovered by skipping a timing point stop."
+  },
+  {
+    "id": "ops_2",
+    "module": "OPS",
+    "text": "Maintenance alert: Bus 215 requires brake inspection after 2,000 additional kilometers. Schedule downtime next Thursday."
+  },
+  {
+    "id": "ops_3",
+    "module": "OPS",
+    "text": "Passenger complaint on Route 14 regarding overcrowding during morning peak. Operations to evaluate adding one extra vehicle temporarily."
+  },
+  {
+    "id": "ops_4",
+    "module": "OPS",
+    "text": "During the city marathon event, all downtown routes will be diverted via Main Avenue from 06:00 to 12:00."
+  },
+  {
+    "id": "ops_5",
+    "module": "OPS",
+    "text": "Fuel shortage alert: depot reserves expected to run low by Friday morning. Refueling schedule to be advanced by one day."
+  }
+]

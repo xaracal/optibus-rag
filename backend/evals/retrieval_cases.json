@@ -1,0 +1,61 @@
+[
+  {
+    "question": "Which routes should change for morning peak demand?",
+    "expected": ["planning_1", "ops_3"]
+  },
+  {
+    "question": "What rest rules apply to driver shifts?",
+    "expected": ["scheduling_1", "scheduling_4"]
+  },
+  {
+    "question": "Which buses or depots have maintenance or fuel issues?",
+    "expected": ["ops_2", "ops_5"]
+  },
+  {
+    "question": "How will the city marathon affect downtown service?",
+    "expected": ["ops_4"]
+  },
+  { "question": "Is there a fuel shortage?", "expected": ["ops_5"] },
+  { "question": "What delays were reported?", "expected": ["ops_1"] },
+  { "question": "What happened to Bus 412?", "expected": ["ops_1"] },
+  {
+    "question": "What changes are planned for weekend service?",
+    "expected": ["planning_3"]
+  },
+  {
+    "question": "Is there extra service after the concert?",
+    "expected": ["planning_4"]
+  },
+  {
+    "question": "Which vehicles should run on the BRT corridor?",
+    "expected": ["planning_5"]
+  },
+  {
+    "question": "Which bus is assigned to Route 12?",
+    "expected": ["scheduling_2"]
+  },
+  {
+    "question": "How long will the airport express take?",
+    "expected": ["planning_2"]
+  },
+  {
+    "question": "What should the next driver roster prioritize?",
+    "expected": ["scheduling_5"]
+  },
+  {
+    "question": "What are the rules for Route 8 blocks?",
+    "expected": ["scheduling_3"]
+  },
+  {
+    "question": "Where do we need extra capacity?",
+    "expected": ["ops_3", "planning_1", "planning_5"]
+  },
+  {
+    "question": "What operational alerts need action this week?",
+    "expected": ["ops_2", "ops_5"]
+  },
+  {
+    "question": "Which items involve the depot?",
+    "expected": ["planning_1", "scheduling_2", "scheduling_3", "ops_5"]
+  }
+]
